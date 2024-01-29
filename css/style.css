@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #303030;
+  display: inline-block;
+}
+img {
+  border-radius: 20px;
+}
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 0 auto;
+  color: #303030;
+  overflow-x: hidden;
+}
+.main {
+  background: url("/images/фон.jpg");
+  height: 900px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.header-desc {
+  margin-top: 70px;
+}
+.header-desc img {
+  margin-bottom: 140px;
+}
+.header-desc h1 {
+  font-size: 64px;
+}
+.header-desc h2 {
+  font-size: 42px;
+}
+.header-desc h3 {
+  font-size: 18px;
+}
+.btn {
+  background: transparent;
+  border: transparent;
+}
+.icons {
+  margin-top: 200px;
+}
+.info {
+  width: 510px;
+  height: 700px;
+  margin: 50px auto;
+  color: #303030;
+}
+
+.tittle {
+  color: #868585;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+.info-desc {
+  display: flex;
+  margin: 100px auto;
+}
+.info-desc p {
+  width: 50%;
+}
+.info-desc img {
+  border-radius: 20px;
+}
+.sub-tittle {
+  margin-bottom: 15px;
+  color: #303030;
+  font-size: 18px;
+  font-weight: 700;
+}
+.info-desc p {
+  color: #303030;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.second-info {
+  margin-top: 100px;
+  color: #303030;
+  display: flex;
+  padding-bottom: 50px;
+}
+.full-info {
+  display: flex;
+}
+.second-tittle {
+  margin-bottom: 60px;
+  color: #868585;
+  font-size: 24px;
+  font-weight: 700;
+}
+.big-info {
+  margin-right: 90px;
+}
+.big-info a {
+  margin-right: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 120px;
+}
+
+.sub-info p {
+  color: #303030;
+  font-size: 18px;
+  font-weight: 700;
+  max-width: 600px;
+}
+.sub-info img {
+  border-radius: 20px;
+}
+.pluses {
+  display: flex;
+}
+.pluses img {
+  margin-right: 40px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+.pluses p {
+  color: #303030;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 86px;
+  max-width: 235px;
+}
+.block {
+  display: flex;
+}
+.block p {
+  max-width: 235px;
+  margin-bottom: 16px;
+}
+.title__desc {
+  color: #303030;
+  font-size: 18px;
+  font-weight: 700;
+}
+.inner-desc__info {
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 40px;
+}
+.block-s {
+  display: flex;
+  margin-bottom: 16px;
+}
+.block-s p {
+  max-width: 235px;
+}
+.big-photo {
+  background-image: url("/images/цитата.jpg");
+  height: 500px;
+}
+.flex-p {
+  width: 90%;
+  margin-right: 40px;
+}
+.anim {
+  transform: translateX(200%);
+  transition: transform 1s ease;
+}
+
+.anim:nth-of-type(even) {
+  transform: rotateX(-200%);
+}
+.show {
+  transform: translateX(0);
+}

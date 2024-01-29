@@ -1,0 +1,126 @@
+@media (max-width: 1600px) {
+  .container {
+    width: 1000px;
+  }
+  .info {
+    height: 830px;
+  }
+  .info-desc {
+    width: 90%;
+  }
+  .big-photo {
+    background-position: left center;
+  }
+}
+@media (max-width: 1388px) {
+  .container {
+    width: 800px;
+  }
+  .info {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .info-desc {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .full-info {
+    display: block;
+  }
+  .big-photo {
+    display: none;
+  }
+  .main-inner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .big-info a {
+    margin-bottom: 80px;
+  }
+  .pluses {
+    align-items: center;
+    justify-content: center;
+  }
+  .big-info {
+    margin-left: 25px;
+  }
+  .block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .block-s {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sub-info {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sub-info p {
+    width: 100%;
+  }
+  .sub-tittle p {
+    width: 100%;
+  }
+  .flex-p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 975px) {
+  .container {
+    width: 700px;
+  }
+  .main {
+    background-size: auto, auto;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  img {
+    max-width: 420px;
+    max-width: 420px;
+  }
+  .header-desc h1 {
+    font-size: 50px;
+  }
+  .sub-info p {
+    width: 82%;
+  }
+  .header-desc h2 {
+    font-size: 30px;
+  }
+  .header-desc h3 {
+    font-size: 18px;
+  }
+  .pluses img {
+    margin-left: 50px;
+  }
+  .block {
+    margin-left: 50px;
+  }
+  .block-s {
+    margin-left: 10px;
+  }
+  .help {
+    margin-right: 50px;
+  }
+}
